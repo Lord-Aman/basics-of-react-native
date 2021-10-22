@@ -19,13 +19,14 @@ export default function WelcomeScreen() {
 
 const styles = StyleSheet.create({
   background: { flex: 1, justifyContent: "flex-end", alignItems: "center" },
+  logoContainer: {
+    position: "absolute",
+    top: 70,
+    alignItems: "center",
+  },
   logo: {
     width: 100,
     height: 100,
-  },
-  loginContainer: {
-    position: "absolute",
-    top: 70,
   },
   loginButton: {
     width: "100%",
