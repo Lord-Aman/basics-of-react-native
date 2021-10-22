@@ -10,7 +10,9 @@ export default function App() {
         style={{
           backgroundColor: "dodgerblue",
           height: 100,
-          widht: 100,
+          width: 100,
+          borderTopLeftRadius: 20,
+          borderBottomRightRadius: 20,
         }}
       ></View>
     </View>
