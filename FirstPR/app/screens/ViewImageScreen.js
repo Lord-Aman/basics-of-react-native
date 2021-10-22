@@ -16,7 +16,7 @@ export default function ViewImageScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: "#000",
+    backgroundColor: colors.black,
   },
   closeIcon: {
     height: 50,
